@@ -107,6 +107,7 @@ body {
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  background: #222;
 }
 
 header,
@@ -117,9 +118,11 @@ footer {
 }
 
 main {
-  background-color: #ccc;
+  /* background-color: #ccc; */
   height: 250px;
   width: 100%;
+  padding: 10px 50px;
+  font-size: 1.75rem;
 }
 
 header,
@@ -129,6 +132,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+header {
+    justify-content: left;
+    padding: 50px 15px;
+}
+
+h1 {
+    font-size: 5rem;
 }
 
 #div-1,
@@ -141,6 +152,11 @@ main {
   line-height: 1.5em;
   font-size: 1.25em;
   height: auto;
+  padding: 0px 15px;
+}
+
+#div-1, #div-2 {
+    border-right: solid 1px #fff;
 }
 
 .wrapper span {
@@ -161,13 +177,24 @@ main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 16px;
+  /* background-color: #f16059; */
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+    justify-content: left;
+}
+
+footer ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* ==========================================================================
